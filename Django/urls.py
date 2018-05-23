@@ -24,4 +24,5 @@ urlpatterns = [
     #first_testpage
     path('',views.home),
     path('count/',views.count),
+    path('about/',views.about),
 ]
